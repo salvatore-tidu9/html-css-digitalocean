@@ -1,0 +1,40 @@
+/* Debug */
+
+.container {
+  border: 1px solid red;
+}
+
+.row {
+  border: 1px solid black;
+}
+
+[class*=col] {
+  border: 1px solid orange;
+}
+
+
+/* MS_CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jbt {
+  margin-bottom: 0;
+  background-image: url(../img/bg-home-hero.svg);
+  /* background-color: rgba(0, 0, 255, 0.6); */
+}
+
+#section_1, #section_3, #section_6 {
+  background-color: lightgrey;
+}
+
+#section_5, #section_7 {
+  background-color: #1414ff;
+}
+
+footer {
+  background-color: #0c0c72;
+}
