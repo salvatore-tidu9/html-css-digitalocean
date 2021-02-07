@@ -1,4 +1,4 @@
-/* Debug */
+/* DEBUG */
 
 .container {
   border: 1px solid red;
@@ -21,11 +21,134 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  padding-top: 50px;
+}
+
+.menu {
+  position: relative;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar, .collapse {
+  border: none;
+}
+
+.nav.navbar-nav li a, .navbar-form.navbar-right li a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #0c0c72;
+}
+
+.nav.navbar-nav li a {
+line-height: 30px;
+}
+
+.navbar-form.navbar-right {
+  padding: 0;
+}
+
+.navbar-form.navbar-right li {
+  display: inline;
+  padding-right: 20px;
+  line-height: 42px;
+}
+
+.navbar-form.navbar-right li a {
+  text-decoration: none;
+}
+
+.navbar-header {
+  height: 70px;
+}
+
+.btn {
+  font-weight: bold;
+  border-color: #397cbd;
+  color: #397cbd;
+}
+
+.navbar-brand img {
+  max-width: 150px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  border: 2px solid #397cbd;
+  border-radius: 5px;
+}
+
 .jbt {
   margin-bottom: 0;
   background-image: url(../img/bg-home-hero.svg);
-  /* background-color: rgba(0, 0, 255, 0.6); */
+  background-size: cover;
 }
+
+.jbt_card {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px 30px;
+  margin-top: 40px;
+}
+
+.jbt_title h1 {
+  padding-top: 50px;
+}
+
+.jbt_card_title h2 {
+  font-weight: bold;
+}
+
+.jbt_card_title .bottom {
+  color: #1414ff;
+}
+
+.jbt_p p {
+  padding-top: 10px;
+}
+
+.jbt_title, .jbt_p p {
+  color: white;
+}
+
+.form_item {
+  width: 100%;
+  height: 48px;
+  border: 1px solid rgb(229, 232, 237);
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.account_btn, .google_btn {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.account_btn {
+  background-color: #397cbd;
+  color: white;
+}
+
+.google_btn {
+  color: grey;
+}
+
+.google_icon {
+  width: 20px;
+  margin-bottom: 5px;
+}
+
+.jbt_card_content h5 {
+  color: #0c0c72;
+}
+
+
 
 #section_1, #section_3, #section_6 {
   background-color: lightgrey;
@@ -37,4 +160,57 @@
 
 footer {
   background-color: #0c0c72;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+  .menu_btn {
+    display: block;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+  }
+
+  .nav, .navbar-right {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .jbt_title h1 {
+    font-size: 30px;
+    width: 330px;
+    padding: 0;
+  }
+
+  .jbt_p p {
+    font-size: 20px;
+  }
+
+  .jbt_card {
+    margin-top: 15px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .jbt_title h1 {
+    font-size: 35px;
+    width: 380px;
+    padding: 0;
+  }
+
+  .jbt_p p {
+    font-size: 20px;
+  }
+
+  .jbt_card {
+    margin-top: 0;
+  }
 }
