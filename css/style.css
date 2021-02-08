@@ -243,7 +243,28 @@ line-height: 30px;
   color: #397cbd;
 }
 
+#section_4 h2 {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #0c0c72;
+}
 
+#section_4 h4 {
+  font-weight: bold;
+  color: #0c0c72;
+}
+
+#section_4 p {
+  width: 85%;
+  font-weight: bold;
+  color: grey;
+}
+
+#section_4 span {
+  font-weight: bold;
+  color: #397cbd;
+}
 
 #section_1 {
   background-color: rgb(243, 245, 249);
