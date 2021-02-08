@@ -98,7 +98,7 @@ line-height: 30px;
   padding-top: 50px;
 }
 
-.jbt_card_title h2 {
+.jbt_card_title h3 {
   font-weight: bold;
 }
 
@@ -148,14 +148,14 @@ line-height: 30px;
   color: #0c0c72;
 }
 
-#section_1 h4 {
+.section_1_title {
   text-transform: uppercase;
   font-weight: bold;
   padding: 30px 0;
   color: grey;
 }
 
-#section_1 h5 {
+.section_1_link {
   font-weight: bold;
   padding: 30px 0;
   color: #0c0c72;
@@ -170,6 +170,43 @@ line-height: 30px;
 
 #section_1 #logo_4 {
   margin-top: 20px;
+}
+
+#section_2 h2 {
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+
+#section_2 p, #section_2 ul li {
+  font-weight: bold;
+  color: grey;
+}
+
+.deploy_p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.ul_container {
+  max-width: 20%;
+  margin-left: 50px;
+  padding-left: 10px;
+  border-left: 1px solid grey;
+}
+
+.box_p {
+  width: 70%;
+}
+
+#section_2 ul li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+#section_2 h4 {
+  font-weight: bold;
+  color: #0c0c72;
 }
 
 #section_1 {
@@ -225,6 +262,10 @@ footer {
 
   #section_1 img {
     padding-left: 30%;
+  }
+
+  .ul_container {
+    margin-left: 2px;
   }
 
 }
