@@ -304,9 +304,69 @@ hr {
   color: white;
 }
 
+#section_6 h2 {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  color: #0c0c72;
+}
 
+.rockerbox_card {
+  max-width: 55%;
+  margin: auto;
+  padding: 70px 0;
+  background-color: white;
+  border-radius: 5px;
+}
 
+.rockerbox_card img {
+  width: 70%;
+}
 
+.rockerbox_card_content p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+}
+
+.name_info, .role_info, .story_info {
+  font-weight: bold;
+}
+
+.name_info {
+  padding-top: 10px;
+  color: #031c4e;
+}
+
+.role_info {
+  color: grey;
+}
+
+.story_info {
+  margin-top: 30px;
+  color: #397cbd;
+}
+
+.card_circle {
+  margin-top: 20px;
+}
+
+.rockerbox {
+  position: relative;
+}
+
+.rockerbox_glyph_left_container {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+.rockerbox_glyph_right_container {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+}
 
 #section_1, #section_3, #section_6 {
   background-color: rgb(243, 245, 249);
@@ -367,6 +427,10 @@ footer {
     margin-left: 2px;
   }
 
+  .rockerbox_card img {
+    width: 100%;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -382,5 +446,12 @@ footer {
 
   .jbt_card {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .rockerbox_card img {
+    margin-top: 40px;
+    width: 70%;
   }
 }
