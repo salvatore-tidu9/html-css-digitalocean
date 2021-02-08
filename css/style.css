@@ -237,6 +237,10 @@ line-height: 30px;
   color: #0c0c72;
 }
 
+.glyphicon {
+  font-size: 20px;
+}
+
 .fas, .far {
   padding-bottom: 50px;
   font-size: 12px;
@@ -266,20 +270,58 @@ line-height: 30px;
   color: #397cbd;
 }
 
-#section_1 {
+#section_5 {
+  padding-bottom: 50px;
+}
+
+#section_5 h2 {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.code, .region, .test_link {
+  font-size: bold;
+}
+
+.code {
+  color: white;
+}
+
+.region {
+  color: lightgrey;
+}
+
+.test_link  {
+  color: #00c6cf;
+}
+.test_link:hover {
+  color: #00c6cf;
+}
+
+hr {
+  color: white;
+}
+
+
+
+
+
+#section_1, #section_3, #section_6 {
   background-color: rgb(243, 245, 249);
 }
 
-#section_3, #section_6 {
-  background-color: lightgrey;
+#section_5, #section_7 {
+  background-color: #0042c0;
 }
 
-#section_5, #section_7 {
-  background-color: #1414ff;
+#section_5 {
+  padding-bottom: 50px;
 }
 
 footer {
-  background-color: #0c0c72;
+  background-color: #031c4e;
 }
 
 
