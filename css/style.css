@@ -100,6 +100,7 @@ line-height: 30px;
 
 .jbt_card_title h3 {
   font-weight: bold;
+  color: #0c0c72;
 }
 
 .jbt_card_title .bottom {
@@ -168,13 +169,10 @@ line-height: 30px;
   padding-right: 10%;
 }
 
-#section_1 #logo_4 {
-  margin-top: 20px;
-}
-
 #section_2 h2 {
   font-weight: bold;
-  padding-top: 50px;
+  margin-top: 50px;
+  color: #0c0c72;
 }
 
 
@@ -185,11 +183,13 @@ line-height: 30px;
 
 .deploy_p {
   font-size: 16px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 
 .ul_container {
   max-width: 20%;
+  margin-top: 10px;
   margin-left: 50px;
   padding-left: 10px;
   border-left: 1px solid grey;
@@ -208,6 +208,42 @@ line-height: 30px;
   font-weight: bold;
   color: #0c0c72;
 }
+
+#section_3 h2, #section_3 p, #section_3 span {
+  font-weight: bold;
+}
+
+#section_3 h2 {
+  margin-top: 50px;
+  color: #0c0c72;
+}
+
+#section_3 p {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: grey;
+}
+
+#section_3 img {
+  max-width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img_text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0c0c72;
+}
+
+.fas, .far {
+  padding-bottom: 50px;
+  font-size: 12px;
+  color: #397cbd;
+}
+
+
 
 #section_1 {
   background-color: rgb(243, 245, 249);
