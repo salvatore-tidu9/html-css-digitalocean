@@ -131,6 +131,7 @@ footer {
 
 .jbt_p p {
   padding-top: 10px;
+  text-shadow: -2px 0 #1414ff, 0 2px #1414ff, 2px 0 #1414ff, 0 -2px #1414ff;
 }
 
 .jbt_title, .jbt_p p {
