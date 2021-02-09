@@ -562,6 +562,14 @@ top: 25px;
   .rockerbox_glyph_left_container, .rockerbox_glyph_right_container {
     display: none;
   }
+
+  #section_2 div, #section_4 div {
+    margin-bottom: 5px;
+  }
+
+  .table_1 {
+    margin-bottom: 80px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -577,6 +585,10 @@ top: 25px;
 
   .jbt_card {
     margin-top: 0;
+  }
+
+  .table_1 {
+    margin-bottom: 80px;
   }
 }
 
